@@ -15,12 +15,12 @@
     "http-errors": "~1.6.3",
     "mongoose": "~5.9.2",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
   },
-  
   "devDependencies": {
-      "hbs": "^4.2.0",
-      "seedgoose": "^2.0.2"
+    "hbs": "^4.2.0",
+    "seedgoose": "^2.0.2"
   },
   "seedgoose": {
     "modelBaseDirectory": "app_api/database/models",
@@ -28,5 +28,4 @@
     "data": "data",
     "db": "mongodb://localhost:27017/travlr"
   }
-  
 }
